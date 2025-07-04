@@ -1,0 +1,37 @@
+{
+    "id": "btp-cap-dev-stack",
+    "version": "1.0.0",
+    "name": "SAP BTP CAP Dev Stack",
+    "description": "A development container for SAP BTP CAP applications.",
+    "documentationURL": "https://github.com/navinkrishnan/devcontainer-features-btp/tree/main/src/btp-cap-dev-stack",
+    "licenseURL": "https://github.com/navinkrishnan/devcontainer-features-btp/blob/main/LICENSE",
+    "options": {
+        "cds-dk": {
+            "type": "string",
+            "default": "latest",
+            "proposals": [
+                "latest",
+                "none"
+            ],
+            "description": "The version of the CAP cds-dk to install."
+        },
+        "pack": {
+            "type": "string",
+            "default": "latest",
+            "description": "The version of the Pack CLI to install."
+        },
+        "cf": {
+            "type": "string",
+            "default": "latest",
+            "proposals": [
+                "latest",
+                "none"
+            ],
+            "description": "The version of the Cloud Foundry CLI to install."
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+
+}

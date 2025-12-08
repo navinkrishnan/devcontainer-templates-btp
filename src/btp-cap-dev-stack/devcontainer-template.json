@@ -5,6 +5,7 @@
     "description": "A development container for SAP BTP CAP applications.",
     "documentationURL": "https://github.com/navinkrishnan/devcontainer-features-btp/tree/main/src/btp-cap-dev-stack",
     "licenseURL": "https://github.com/navinkrishnan/devcontainer-features-btp/blob/main/LICENSE",
+    "image": "mcr.microsoft.com/devcontainers/base:dev-bookworm",
     "options": {
         "cds-dk": {
             "type": "string",

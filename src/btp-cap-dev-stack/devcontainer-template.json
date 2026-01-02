@@ -1,6 +1,6 @@
 {
     "id": "btp-cap-dev-stack",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "SAP BTP CAP Dev Stack",
     "description": "A development container for SAP BTP CAP applications.",
     "documentationURL": "https://github.com/navinkrishnan/devcontainer-features-btp/tree/main/src/btp-cap-dev-stack",
@@ -16,11 +16,6 @@
             ],
             "description": "The version of the CAP cds-dk to install."
         },
-        "pack": {
-            "type": "string",
-            "default": "latest",
-            "description": "The version of the Pack CLI to install."
-        },
         "cf": {
             "type": "string",
             "default": "latest",
@@ -29,6 +24,42 @@
                 "none"
             ],
             "description": "The version of the Cloud Foundry CLI to install."
+        },
+        "mbt": {
+            "type": "string",
+            "default": "latest",
+            "proposals": [
+                "latest",
+                "none"
+            ],
+            "description": "The version of the SAP Cloud MTA Build Tool (mbt) to install."
+        },
+        "helm": {
+            "type": "string",
+            "default": "latest",
+            "proposals": [
+                "latest",
+                "none"
+            ],
+            "description": "The version of Helm to install."
+        },
+        "pack": {
+            "type": "string",
+            "default": "latest",
+            "proposals": [
+                "latest",
+                "none"
+            ],
+            "description": "The version of the Pack CLI to install."
+        },
+        "kubectl": {
+            "type": "string",
+            "default": "latest",
+            "proposals": [
+                "latest",
+                "none"
+            ],
+            "description": "The version of the Kubernetes CLI (kubectl) to install."
         }
     },
     "platforms": [

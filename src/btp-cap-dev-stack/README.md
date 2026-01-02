@@ -8,8 +8,11 @@ A development container for SAP BTP CAP applications.
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | cds-dk | The version of the CAP cds-dk to install. | string | latest |
-| pack | The version of the Pack CLI to install. | string | latest |
 | cf | The version of the Cloud Foundry CLI to install. | string | latest |
+| mbt | The version of the SAP Cloud MTA Build Tool (mbt) to install. | string | latest |
+| helm | The version of Helm to install. | string | latest |
+| pack | The version of the Pack CLI to install. | string | latest |
+| kubectl | The version of the Kubernetes CLI (kubectl) to install. | string | latest |
 
 
 
